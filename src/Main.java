@@ -3,18 +3,8 @@ import java.util.Arrays;
 
 
 public class Main {
-    static boolean isFind(int[] arr, int value){
-        for(int i : arr){
-            if(i == value){
-                return true;
-            }
-        }
-        return false;
-    }
-    
     public static void main(String[] args) {
         int[] dizi = {10, 20, 20, 10, 10, 20, 5, 20};
-        int[] tekrar = new int[dizi.length];
         int temp;
         int j = 0;
         Arrays.sort(dizi);
